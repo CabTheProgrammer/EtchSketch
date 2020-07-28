@@ -1,13 +1,34 @@
-#Sandbox
+.center
 {
-    color: red;
-    border: 1px solid black;
-    display: flexbox;
-    
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+#Sandbox
+{  margin-top: 35px;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    color: red;
+    border:5px solid black;
+    display: grid;
+    grid-template-columns: var(--columnNum );
+    overflow: auto;
+}
+
+/* Default class of grid */
 .blank
 {
+
+    border: 1px solid black;
+    margin: 1px;
+    /* color: white; */
+}
+
+/* When it is highlighted by the mouse */
+.hilight
+{
+    color: black;
     border: 1px solid black;
     margin: 1px;
 }
