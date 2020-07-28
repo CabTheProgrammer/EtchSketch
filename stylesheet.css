@@ -1,0 +1,13 @@
+#Sandbox
+{
+    color: red;
+    border: 1px solid black;
+    display: flexbox;
+    
+}
+
+.blank
+{
+    border: 1px solid black;
+    margin: 1px;
+}
