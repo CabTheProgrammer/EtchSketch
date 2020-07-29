@@ -1,13 +1,15 @@
 .center
 {
    text-align: center;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   font-family: DejaVu Sans Mono,Noto Sans, sans-serif;
+   font-size: 30px;
 }
 
 #Sandbox
-{  margin-top: 35px;
-    width: 80%;
-    height: 50%;
+{  
+    
+    width: 80vw;
+    height: 80vh;
     margin: auto;
     color: red;
     border:5px solid black;
@@ -18,17 +20,24 @@
 
 /* Default class of grid */
 .blank
-{
-
-    border: 1px solid black;
-    margin: 1px;
-    /* color: white; */
+{   
+    /* border: 1px solid black;
+    margin: 1px; */
+    color: white;
 }
 
 /* When it is highlighted by the mouse */
 .hilight
 {
     color: black;
-    border: 1px solid black;
-    margin: 1px;
+    background-color: black;
+    /* border: 1px solid black; */
+    /* margin: 1px; */
+}
+/* Trying the above with css first. */
+
+/* Only works when mouse is on it */
+#Sandbox > div:h
+{
+    background-color: red;
 }
